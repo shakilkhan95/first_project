@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #0b0736;
+    --second-text-color: #ffffff;
+    --btn-bg-color: #cce8fd;
+    --bg-color: #d9f4ff;
+    --h1-font-size: 85px;
+    --h2-font-size: 68px;
+    --p-font-size: 40px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    padding: 0 9%;
+}
+
+/* header section style */
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 30px 9%;
+    gap: 30px;
+    & a {
+        color: var(--text-color);
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .app {
+        display: flex;
+        justify-content: center;
+        border: 1px solid var(--bg-color);
+        border-radius: 4px;
+        gap: 10px;
+        padding: 8px;
+        cursor: pointer;
+
+        &  p {
+            color: var(--text-color);
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+
+    & .hero-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 50dvw;
+    }
+
+    .hero-text {
+        padding: 20px 0;
+
+        & h1 {
+            font-size: var(--h1-font-size);
+            color: var(--text-color);
+            font-weight: 700;
+            margin-top: 60px;
+            padding: 30px 0;
+        }
+
+        .para-div {
+            display: flex;
+            gap: 10px;
+
+            & p {
+                font-size: 24px;
+                font-weight: 500;
+                color: var(--text-color);
+                margin-top: 20px;
+            }
+        }
+    }
+
+    button {
+        padding: 20px 30px;
+        background: var(--text-color);
+        color: var(--second-text-color);
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+}
