@@ -229,3 +229,39 @@ header {
         }
     }
 }
+
+/* partner section */
+.partner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* join section */
+.join-section {
+    padding: 40px;
+    background-color: var(--bg-color);
+    border-radius: 25px;
+    width: 90%;
+    margin: 0 auto;
+
+    & .target-text .join-h1 {
+        font-size: 70px;
+        padding-top: 30px;
+    }
+
+    .target-text .target-btn {
+        background-color: var(--text-color);
+
+        & .btn-text h3 {
+            color: var(--second-text-color);
+        }
+    }
+}
+
+/* copyright section */
+.copyright {
+    padding: 50px 0 30px;
+    text-align: center;
+    color: #9393c4;
+}
