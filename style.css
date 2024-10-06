@@ -8,20 +8,22 @@
     scroll-behavior: smooth;
 }
 
+/* global variables */
 :root {
     --text-color: #0b0736;
     --second-text-color: #ffffff;
     --btn-bg-color: #cce8fd;
     --bg-color: #d9f4ff;
-    --h1-font-size: 85px;
-    --h2-font-size: 68px;
-    --p-font-size: 40px;
+    --h1-font-size: 5.4rem;
+    --h2-font-size: 4.25rem;
+    --p-font-size: 2.5rem;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* padding for all section */
 section {
     padding: 90px 5%;
 }
@@ -36,7 +38,7 @@ header {
     gap: 30px;
     & a {
         color: var(--text-color);
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 
@@ -52,7 +54,7 @@ header {
         &  p {
             color: var(--text-color);
             font-weight: 600;
-            font-size: 16px;
+            font-size: 1rem;
         }
     }
 }
@@ -84,7 +86,7 @@ header {
             gap: 10px;
 
             & p {
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 500;
                 color: var(--text-color);
                 margin-top: 20px;
@@ -96,7 +98,7 @@ header {
         padding: 20px 30px;
         background: var(--text-color);
         color: var(--second-text-color);
-        font-size: 18px;
+        font-size: 1.6rem;
         font-weight: 500;
         cursor: pointer;
         border-radius: 5px;
@@ -129,7 +131,7 @@ header {
 
         .target-p {
             color: grey;
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: 400;
             padding: 0 30px;
         }
@@ -147,13 +149,13 @@ header {
             background-color: var(--btn-bg-color);
 
             & p {
-                font-size: 16px;
+                font-size: 1rem;
                 color: grey;
                 font-weight: 400;
             }
 
             h3 {
-                font-size: 16px;
+                font-size: 1rem;
                 margin-top: 10px;
                 font-weight: 700;
                 color: var(--text-color);
@@ -217,14 +219,14 @@ header {
 
            & h4 {
                 color: var(--text-color);
-                font-size: 24px;
+                font-size: 1.5rem;
                 font-weight: 600;
                 padding-bottom: 20px;
             }
 
             p {
                 color: #9393c4;
-                font-size: 20px;
+                font-size: 1.25rem;
             }
         }
     }
@@ -246,7 +248,7 @@ header {
     margin: 0 auto;
 
     & .target-text .join-h1 {
-        font-size: 70px;
+        font-size: 4.4rem;
         padding-top: 30px;
     }
 
